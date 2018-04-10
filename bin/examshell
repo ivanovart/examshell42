@@ -1,6 +1,6 @@
 #!/bin/bash
 
-VENV_ROOT="/usr/share/examshell/venv"
+VENV_ROOT="/usr/local/share/examshell/venv"
 
 source $VENV_ROOT/bin/activate
 examshell-cli.py
