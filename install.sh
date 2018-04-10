@@ -25,7 +25,7 @@ pip install -r requirements.txt || die "Failed."
 deactivate
 
 echo "> Installation of the exam shell"
-cp -R packages/examshell-1.1.2-py2.7.egg $EXAM_VENV/lib/python2.7/site-packages
+cp -R packages/examshell-1.1.6-py2.7.egg $EXAM_VENV/lib/python2.7/site-packages
 cp bin/examshell-cli.py $EXAM_VENV/bin
 
 echo "> Installation of the run script"
